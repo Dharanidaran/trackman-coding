@@ -1,0 +1,7 @@
+graph G {
+	"scout.tags" -- "base.tags"
+	"scout.tags" -- "dict.player_dedup"
+	"crosscheck.tags" -- "scout.tags"
+	"crosscheck.tags" -- "base.games"
+	"games.nulls" -- "crosscheck.tags"
+}
