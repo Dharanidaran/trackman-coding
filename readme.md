@@ -4,9 +4,13 @@
 
 ### Requirments
 
-	graphviz for plotting
+	. python3
+	. graphviz
+ 
 
-## OutputImages contains the images that show the relationship tree
+### OutputImages contains the relationship tree
+
+### Source code in trackman.ipynb
 
  
 
