@@ -1,0 +1,4 @@
+graph G {
+	"rundown.access_rules_rows" -- "rundown.access_rules"
+	"rundown.access_rules_rows" -- "broadcast.access_rules"
+}

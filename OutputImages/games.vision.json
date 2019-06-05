@@ -1,0 +1,10 @@
+graph G {
+	"games.vision" -- "vision.final_pitch_data"
+	"games.vision" -- "merged.measurement"
+	"games.vision" -- "vision.live_pitch_data"
+	"scout.tags" -- "base.tags"
+	"scout.tags" -- "dict.player_dedup"
+	"crosscheck.tags" -- "scout.tags"
+	"crosscheck.tags" -- "base.games"
+	"games.vision" -- "crosscheck.tags"
+}

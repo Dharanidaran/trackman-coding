@@ -1,0 +1,9 @@
+graph G {
+	"scout.tags" -- "base.tags"
+	"scout.tags" -- "dict.player_dedup"
+	"trout.app_angle" -- "scout.tags"
+	"trout.app_angle" -- "base.measurements"
+	"trout.app_angle" -- "base.games"
+	"trout.app_angle" -- "base.players"
+	"trout.app_angle" -- "report.hardball_ref"
+}

@@ -1,0 +1,3 @@
+graph G {
+	"report.schedule_new_level" -- "lineup.schedule"
+}

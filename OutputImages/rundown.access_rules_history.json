@@ -1,0 +1,6 @@
+graph G {
+	"rundown.access_rules_rows" -- "rundown.access_rules"
+	"rundown.access_rules_history" -- "broadcast.access_rules"
+	"rundown.access_rules_history" -- "rundown.access_rules_rows"
+	"rundown.access_rules_history" -- "broadcast.access_rules"
+}

@@ -1,0 +1,9 @@
+graph G {
+	"games.oem" -- "radar.measurement"
+	"games.oem" -- "radar.live_pitch_data"
+	"scout.tags" -- "base.tags"
+	"scout.tags" -- "dict.player_dedup"
+	"crosscheck.tags" -- "scout.tags"
+	"crosscheck.tags" -- "base.games"
+	"games.oem" -- "crosscheck.tags"
+}

@@ -1,0 +1,4 @@
+graph G {
+	"scout.tags" -- "base.tags"
+	"scout.tags" -- "dict.player_dedup"
+}

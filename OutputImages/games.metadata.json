@@ -1,0 +1,7 @@
+graph G {
+	"games.metadata" -- "base.games"
+	"games.metadata" -- "base.locations"
+	"rundown.location_history_rows" -- "rundown.locations"
+	"rundown.location_history" -- "rundown.location_history_rows"
+	"games.metadata" -- "rundown.location_history"
+}

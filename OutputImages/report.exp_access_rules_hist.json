@@ -1,0 +1,4 @@
+graph G {
+	"report.exp_access_rules_hist" -- "rundown.access_rules_end"
+	"report.exp_access_rules_hist" -- "broadcast.priority_lists"
+}

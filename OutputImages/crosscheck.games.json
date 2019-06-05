@@ -1,0 +1,12 @@
+graph G {
+	"crosscheck.games" -- "base.games"
+	"crosscheck.games" -- "base.locations"
+	"rundown.location_history_rows" -- "rundown.locations"
+	"rundown.location_history" -- "rundown.location_history_rows"
+	"crosscheck.games" -- "rundown.location_history"
+	"scout.tags" -- "base.tags"
+	"scout.tags" -- "dict.player_dedup"
+	"crosscheck.tags" -- "scout.tags"
+	"crosscheck.games" -- "base.games"
+	"crosscheck.games" -- "crosscheck.tags"
+}

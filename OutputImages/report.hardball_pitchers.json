@@ -1,0 +1,7 @@
+graph G {
+	"scout.tags" -- "base.tags"
+	"scout.tags" -- "dict.player_dedup"
+	"report.hardball_pitchers" -- "scout.tags"
+	"report.hardball_pitchers" -- "base.measurements"
+	"report.hardball_pitchers" -- "base.games"
+}

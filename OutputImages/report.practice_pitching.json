@@ -1,0 +1,4 @@
+graph G {
+	"report.practice_pitching" -- "practice.plays"
+	"report.practice_pitching" -- "practice.games"
+}

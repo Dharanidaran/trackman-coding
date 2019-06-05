@@ -1,0 +1,13 @@
+graph G {
+	"report.schedule_new_level" -- "lineup.schedule"
+	"report.scheduled_no_exceptions_hist" -- "report.schedule_new_level"
+	"games.metadata" -- "base.games"
+	"games.metadata" -- "base.locations"
+	"rundown.location_history_rows" -- "rundown.locations"
+	"rundown.location_history" -- "rundown.location_history_rows"
+	"games.metadata" -- "rundown.location_history"
+	"report.scheduled_no_exceptions_hist" -- "games.metadata"
+	"report.exp_access_rules_hist" -- "rundown.access_rules_end"
+	"report.exp_access_rules_hist" -- "broadcast.priority_lists"
+	"report.scheduled_no_exceptions_hist" -- "report.exp_access_rules_hist"
+}

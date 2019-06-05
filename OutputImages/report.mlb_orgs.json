@@ -1,0 +1,4 @@
+graph G {
+	"report.mlb_orgs" -- "dict.team_org"
+	"report.mlb_orgs" -- "scout.teams"
+}

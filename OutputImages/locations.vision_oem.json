@@ -1,0 +1,12 @@
+graph G {
+	"locations.vision_oem" -- "radar.measurement"
+	"locations.vision_oem" -- "radar.live_pitch_data"
+	"locations.vision_oem" -- "merged.measurement"
+	"locations.vision_oem" -- "vision.live_pitch_data"
+	"locations.vision_oem" -- "base.locations"
+	"scout.tags" -- "base.tags"
+	"scout.tags" -- "dict.player_dedup"
+	"crosscheck.tags" -- "scout.tags"
+	"crosscheck.tags" -- "base.games"
+	"locations.vision_oem" -- "crosscheck.tags"
+}

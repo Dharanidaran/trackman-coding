@@ -1,0 +1,10 @@
+graph G {
+	"games.live_final" -- "merged.measurement"
+	"games.live_final" -- "merged.live_pitch_data"
+	"games.live_final" -- "merged.batting_launch_data"
+	"scout.tags" -- "base.tags"
+	"scout.tags" -- "dict.player_dedup"
+	"crosscheck.tags" -- "scout.tags"
+	"crosscheck.tags" -- "base.games"
+	"games.live_final" -- "crosscheck.tags"
+}

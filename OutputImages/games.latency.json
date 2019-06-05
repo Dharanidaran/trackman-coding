@@ -1,0 +1,10 @@
+graph G {
+	"games.latency" -- "advance.merged_measurement"
+	"games.latency" -- "sdkjson.live_pitch_data"
+	"games.latency" -- "sdkjson.measurement"
+	"scout.tags" -- "base.tags"
+	"scout.tags" -- "dict.player_dedup"
+	"crosscheck.tags" -- "scout.tags"
+	"crosscheck.tags" -- "base.games"
+	"games.latency" -- "crosscheck.tags"
+}
