@@ -1,0 +1,8 @@
+graph G {
+	"report.delivered_new_pk" -- "broadcast.delivered_games"
+	"report.delivered_exceptions_hist" -- "report.delivered_new_pk"
+	"report.delivered_exceptions_hist" -- "base.games"
+	"report.exp_access_rules_hist" -- "rundown.access_rules_end"
+	"report.exp_access_rules_hist" -- "broadcast.priority_lists"
+	"report.delivered_exceptions_hist" -- "report.exp_access_rules_hist"
+}
